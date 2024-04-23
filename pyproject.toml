@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "3.9.18"
 python-dotenv = "^1.0.1"
-
+pre-commit = "^3.7.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.2.0"
