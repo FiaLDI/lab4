@@ -16,6 +16,9 @@ black = "^24.2.0"
 isort = "^5.13.2"
 flake8 = "^7.0.0"
 
+[tool.black]
+exclude =.git,__pycache__,docs/source/conf.py,build,dist,tests
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
